@@ -1,0 +1,30 @@
+.--transaction-page {
+    margin-top: 7rem; 
+}
+
+.--transaction {
+    display: flex;   
+    gap: 10rem;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.--transaction-history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.--transaction-details {
+    display: flex;
+    gap: 10px;
+}
+
+
+.--transaction-details-second {
+    margin-top: 5.5px;
+    margin-bottom: -15px;
+}
+
+.now {
+    margin-top: 2rem;
+}

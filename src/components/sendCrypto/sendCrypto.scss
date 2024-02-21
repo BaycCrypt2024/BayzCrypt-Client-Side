@@ -1,0 +1,64 @@
+.--send-crypto-page {
+    margin-top: 2rem;
+    text-align: center;
+    color: red;
+}
+
+.--send-crypto-form {
+    margin-top: 5rem;
+}
+
+.--wallet-label {
+    font-size: 2rem;
+}
+
+.--wallet-input {
+    padding: 5px;
+    // margin: 10px;
+    width: 76rem;
+    height: 4rem;
+    margin-top: 1rem;
+}
+
+.--flex-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.--wallet-amount {
+    width: 30rem;
+    height: 4rem;
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+.--wallet-gif {
+    width: 30rem;
+    padding: 5px;
+    height: 4rem;
+    margin-right: 2.6rem;
+    margin-top: 1rem;
+}
+
+.--label-message {
+    margin-top: 3rem;
+}
+
+.--wallet-input-message {
+    padding: 5px;
+    // margin: 10px;
+    width: 50rem;
+    height: 10rem;
+    margin-top: 1rem;
+}
+
+.--send-btn {
+    margin-left: 60rem;
+    padding: 10px;
+    border-radius: 20px;
+    width: 12rem;
+    margin-top: 2rem;
+    background-color: red;
+    color: white;
+}
