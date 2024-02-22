@@ -148,7 +148,7 @@ const Register = () => {
           </div>
           <h2>Register</h2>
           <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="name" value={clear} onChange={(e) => setClear(e.target.value)} required name="name" />
+            <input type="text" placeholder="Name" value={clear} onChange={(e) => setClear(e.target.value)} required name="name" />
             <input type="email" placeholder="Email" value={clearTwo} onChange={(e) => setClearTwo(e.target.value)} required name="email" />
             <PasswordInput
               type="password"
@@ -160,7 +160,7 @@ const Register = () => {
             <input required style={{ display: "none" }} type="file" id="file" />
             <label htmlFor="file">
               <img src={Add} alt="" />
-              <span>Add an avatar</span>
+              <span>Add a profile picture</span>
             </label>
 
             {/* Password Strength indicator */}
@@ -200,10 +200,10 @@ const Register = () => {
             {loading && "Please wait..."}
             {err && <h3 style={{color: 'green', fontSize: '15px', marginTop: '10px'}}>Registration Successfull</h3>}
           </form>
-          <span className={styles.register}>
-            <Link style={{color: 'black'}}>Hello,</Link> &nbsp; &nbsp;
+          <span style={{display: 'flex', marginTop: '15px'}}>
+            {/* <Link style={{color: 'black'}}>Hello,</Link> &nbsp; &nbsp; */}
             <p> &nbsp;Already have an Account? &nbsp;</p>
-            <Link to="/login">Login</Link>
+            <h3 style={{marginTop: '-10px'}}><Link to="/login">Login</Link></h3>
           </span>
         </div>
       </Card>

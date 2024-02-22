@@ -58,10 +58,9 @@ const Login = () => {
                 <button type="submit" className="--btn --btn-primary --btn-block">Login</button>
             </form>
             <Link to='/forgot'>Forgot password</Link>
-            <span className={styles.register}>
-              <Link style={{color: 'black'}}>Hello,</Link> &nbsp; &nbsp;
+            <span style={{display: 'flex', marginTop: '15px'}}>
               <p> &nbsp;Don't have an Account? &nbsp;</p> 
-              <Link to='/register'>Register</Link>
+              <h3 style={{marginTop: '-10px'}}><Link to='/register'>Register</Link></h3>
             </span>
         </div>
       </Card>

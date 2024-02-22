@@ -9,7 +9,7 @@ const UserAuth = () => {
     <>
       <div>
         <div style={{display: 'flex', gap: '5px', marginLeft: '2rem'}}>
-          <img style={{width: '6rem', height: "5.5rem", borderRadius: '40px'}} src={currentUser.photoURL} alt="" />
+          <img style={{width: '6rem', height: "5.7rem", borderRadius: '40px'}} src={currentUser.photoURL} alt="" />
           <h4>Welcome back, <strong style={{textTransform: "uppercase"}}>{currentUser.displayName}</strong></h4> <br />
         </div>
         <p style={{ marginLeft: '9rem', marginTop: '-2.5rem'}}>Send crypto with ease.</p>

@@ -33,7 +33,7 @@ const Profile = () => {
           <PageMenu/>
         </div>
 
-        <h2>Profile</h2>
+        <h2>Hi, <bold style={{textTransform: "uppercase"}}>{currentUser.displayName}</bold></h2>
         <div className="--flex-start profile">
           <Card cardClass={"card"}>
             <>
@@ -54,7 +54,7 @@ const Profile = () => {
                 </p>
                 <p>
                     <label>Email:</label>
-                    <input type="email" name="email" value={profile.email} onChange={handleInputChage} disabled />
+                    <input type="email" name="email" value={currentUser.email} onChange={handleInputChage} disabled />
                 </p>
                 <p>
                     <label>Bio:</label>
