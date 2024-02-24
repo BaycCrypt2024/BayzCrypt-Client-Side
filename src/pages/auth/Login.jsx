@@ -3,7 +3,6 @@ import styles from "./auth.module.scss";
 import Card from "../../components/card/Card";
 import { BiLogIn } from "react-icons/bi";
 import { useState } from "react";
-// import { Link } from "react-router-dom";
 import PasswordInput from "../../components/passwordInput/PasswordInput";
 
 import { useNavigate, Link } from "react-router-dom";
@@ -27,16 +26,6 @@ const Login = () => {
     }
   };
 
-    const [email, setEmail] = useState('')
-    const [password, setPassword] = useState('')
-
-    const handleInputChange = () => {
-        
-    }
-    const loginUser = () => {
-
-    }
-
   return (
     <div className={`container ${styles.auth}` }>
       <Card>
@@ -54,7 +43,6 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
                 <input type="email" placeholder="Email" required name="email"/>
                 <PasswordInput placeholder="Password" name="password"/>
-                {/* <input type="password" placeholder="Password" required name="password" value={password} onChange={handleInputChange}/> */}
                 <button type="submit" className="--btn --btn-primary --btn-block">Login</button>
             </form>
             <Link to='/forgot'>Forgot password</Link>

@@ -6,7 +6,7 @@ import { AiOutlineTransaction } from "react-icons/ai";
 import { IoIosNotificationsOutline } from "react-icons/io";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { CiLogout } from "react-icons/ci";
-import { Link, NavLink } from "react-router-dom"
+import { Link } from "react-router-dom"
 import './sideBar.scss';
 import {signOut} from "firebase/auth"
 import { auth } from '../../firebase'

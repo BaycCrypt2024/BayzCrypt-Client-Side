@@ -154,7 +154,6 @@ const Register = () => {
               type="password"
               placeholder="Password"
               name="password"
-              // value={clear} onClick={(e) => setClear(e.target.value)}
               onChange={handleInputChange}
             />
             <input required style={{ display: "none" }} type="file" id="file" />
@@ -201,7 +200,6 @@ const Register = () => {
             {err && <h3 style={{color: 'green', fontSize: '15px', marginTop: '10px'}}>Registration Successfull</h3>}
           </form>
           <span style={{display: 'flex', marginTop: '15px'}}>
-            {/* <Link style={{color: 'black'}}>Hello,</Link> &nbsp; &nbsp; */}
             <p> &nbsp;Already have an Account? &nbsp;</p>
             <h3 style={{marginTop: '-10px'}}><Link to="/login">Login</Link></h3>
           </span>

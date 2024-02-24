@@ -7,22 +7,17 @@ import { Link } from "react-router-dom";
 import PasswordInput from "../../components/passwordInput/PasswordInput";
 
 const initialState = {
-    password: "",
-    password2: "",
-}
+  password: "",
+  password2: "",
+};
 
 const Reset = () => {
+  const [formData, setFormData] = useState(initialState);
 
-    const [ formData, setFormData ] = useState(initialState)
+  const { password, password2 } = formData;
 
-    const { password, password2} = formData;
-
-    const handleInputChange = () => {
-        
-    }
-    const loginUser = () => {
-
-    }
+  const handleInputChange = () => {};
+  const loginUser = () => {};
 
   return (
     <div className={`container ${styles.auth}`}>
@@ -33,22 +28,33 @@ const Reset = () => {
           </div>
           <h2>Reset Password</h2>
 
-            <form onSubmit={loginUser}>
-                <PasswordInput placeholder="Password" name="password" value={password} onChange={handleInputChange} />
-                <PasswordInput placeholder="Confirm Password" name="password2" value={password2} onChange={handleInputChange} />
+          <form onSubmit={loginUser}>
+            <PasswordInput
+              placeholder="Password"
+              name="password"
+              value={password}
+              onChange={handleInputChange}
+            />
+            <PasswordInput
+              placeholder="Confirm Password"
+              name="password2"
+              value={password2}
+              onChange={handleInputChange}
+            />
 
-                <button type="submit" className="--btn --btn-primary --btn-block">Reset Password</button>
+            <button type="submit" className="--btn --btn-primary --btn-block">
+              Reset Password
+            </button>
 
-                <div className={styles.links}>
-                    <p>
-                        <Link to='/'>- Home</Link> &nbsp; &nbsp;
-                    </p>
-                    <p>
-                        <Link to='/login'>- Login</Link>
-                    </p>
-                </div>
-            </form>
-            
+            <div className={styles.links}>
+              <p>
+                <Link to="/">- Home</Link> &nbsp; &nbsp;
+              </p>
+              <p>
+                <Link to="/login">- Login</Link>
+              </p>
+            </div>
+          </form>
         </div>
       </Card>
     </div>

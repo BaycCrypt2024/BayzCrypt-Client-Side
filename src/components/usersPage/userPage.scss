@@ -1,19 +1,12 @@
 @media screen and (min-device-width: 350px) {
     .usersPage {
-        // display: grid;
-        // grid-template-columns: 250px 1fr 270px;
         height: 100%;
-        // overflow: hidden;
         background-color: var(--bg-color);
         color: var(--primary-text-color);
     }
     
     #sectionOne {
         display: none;
-        // height: 100vh;
-        // overflow: scroll;
-        // overflow-x: hidden;
-        // box-sizing: content-box;
     }
     
     .--left-side-header {
@@ -28,22 +21,8 @@
         left: 6px;
     }
     
-    // sectionTWO //
-    
-        // #sectionTwo {
-        //     // background-color:  aqua;
-        //     height: 100vh;
-        //     overflow: scroll;
-        //     overflow-x: hidden;
-        //     box-sizing: content-box;
-        // }
-
-
-    
     .--middle-side-header {
         margin-top: 3rem;
-        // margin-right: 3rem;
-        // display: flex;
         justify-content: space-around;
     }
     
@@ -84,11 +63,6 @@
     
     #sectionThree {
         display: none;
-        // background-color: bisque;
-        // height: 100vh;
-        // overflow: scroll;
-        // overflow-x: hidden;
-        // box-sizing: content-box;
     }
     
     .--right-side-header {
@@ -102,6 +76,7 @@
     }
 
     .usersAuth {
+        margin-top: 5rem;
         display: flex;
         gap: 7px;
         margin-left: 2rem;
@@ -174,7 +149,6 @@
     // sectionTWO //
     
     #sectionTwo {
-        // background-color:  aqua;
         height: 100vh;
         overflow: scroll;
         overflow-x: hidden;
@@ -246,6 +220,7 @@
     }
 
     .usersAuth {
+        margin-top: -0rem;
         display: flex;
         gap: 15px;
         margin-left: 2rem;

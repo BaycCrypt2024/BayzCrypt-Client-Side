@@ -1,6 +1,5 @@
 import React from "react";
-// import loginImg from "../../assets/login.svg";
-import crytoLogo from "../../assets/crypt.jpg";
+import crytoLogo from "../../assets/crytoPhone.png";
 import "./Home.scss";
 import Loader from "../../components/loader/Loader";
 import { useState, useEffect } from "react";
@@ -42,7 +41,7 @@ const Home = () => {
               <img src={crytoLogo} alt="loginImg" />
             </div>
             </div>
-          <div>h1</div>
+          {/* <div>h1</div> */}
           </section>
           
         </Layout>

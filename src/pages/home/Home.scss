@@ -1,8 +1,7 @@
 @media screen and (min-device-width: 350px) {
   .container {
-    // margin-top: 2rem;
-    // display: flex;
   }
+  
   .hero-text {
     margin-top: 3rem;
     padding: 2rem;
@@ -16,7 +15,9 @@
     margin-bottom: 2rem;
   }
   .hero-image img {
-    width: 28rem;
+    margin-top: 1.5rem;
+    width: 26rem;
+    margin-left: 2.5rem;
   }
   
 }

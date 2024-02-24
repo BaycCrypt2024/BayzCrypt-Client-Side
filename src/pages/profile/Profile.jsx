@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "../../components/card/Card";
-import profileImg from "../../assets/avatarr.png";
 import { useState } from "react";
 import { useContext } from 'react';
 import './Profile.scss'
