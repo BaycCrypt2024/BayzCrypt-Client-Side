@@ -1,96 +1,262 @@
-.usersPage {
-    display: grid;
-    grid-template-columns: 250px 1fr 270px;
-    height: 100%;
-    overflow: hidden;
-    background-color: var(--bg-color);
-    color: var(--primary-text-color);
+@media screen and (min-device-width: 350px) {
+    .usersPage {
+        // display: grid;
+        // grid-template-columns: 250px 1fr 270px;
+        height: 100%;
+        // overflow: hidden;
+        background-color: var(--bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    #sectionOne {
+        display: none;
+        // height: 100vh;
+        // overflow: scroll;
+        // overflow-x: hidden;
+        // box-sizing: content-box;
+    }
+    
+    .--left-side-header {
+        margin-top: 7rem;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .--user-settings {
+        margin-top: 6rem;
+        position: absolute;
+        left: 6px;
+    }
+    
+    // sectionTWO //
+    
+        // #sectionTwo {
+        //     // background-color:  aqua;
+        //     height: 100vh;
+        //     overflow: scroll;
+        //     overflow-x: hidden;
+        //     box-sizing: content-box;
+        // }
+
+
+    
+    .--middle-side-header {
+        margin-top: 3rem;
+        // margin-right: 3rem;
+        // display: flex;
+        justify-content: space-around;
+    }
+    
+    .--middle-side-image {
+        margin-top: 5rem;
+        width: 5rem;
+        text-align: center;
+        margin-right: 4rem;
+    }
+
+    .--middle-side-image img {
+        width: 35rem;
+        margin-left: 1rem;
+    }
+
+    .--middle-side-amount {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .--middle-side-icons {
+        display: flex;
+        margin-top: 3rem;
+        gap: 45px;
+        margin-left: 7rem;
+        font-size: 5rem;
+    }
+    
+    .--middle-side-notification {
+        display: flex;
+        margin-top: 5rem;
+        gap: 10rem;
+        justify-content: space-around;
+    }
+    
+    // Section three
+    
+    
+    #sectionThree {
+        display: none;
+        // background-color: bisque;
+        // height: 100vh;
+        // overflow: scroll;
+        // overflow-x: hidden;
+        // box-sizing: content-box;
+    }
+    
+    .--right-side-header {
+        margin-top: 7rem;
+        position: absolute;
+    }
+    
+    .--right-side-amount {
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+
+    .usersAuth {
+        display: flex;
+        gap: 7px;
+        margin-left: 2rem;
+    }
+    
+    .usersP {
+        margin-left: 9rem;
+        margin-top: -2rem;
+    }
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
+
+    .--middleLast {
+        display: block;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .--middleLast-second {
+        margin-top: 5rem;
+        gap: 10px;
+        display: flex;
+    }
+
+    .--middleLast-first {
+        display: flex;
+        gap: 10px;
+        margin-top: 5rem;
+        margin-left: 2rem;
+        margin-bottom: 3rem;
+    }
 }
 
-#sectionOne {
-    height: 100vh;
-    overflow: scroll;
-    overflow-x: hidden;
-    box-sizing: content-box;
-}
-
-.--left-side-header {
-    margin-top: 7rem;
-    position: absolute;
-    left: 20px;
-}
-
-.--user-settings {
-    margin-top: 6rem;
-    position: absolute;
-    left: 6px;
-}
-
-// sectionTWO //
-
-#sectionTwo {
-    // background-color:  aqua;
-    height: 100vh;
-    overflow: scroll;
-    overflow-x: hidden;
-    box-sizing: content-box;
-}
-
-.--middle-side-header {
-    margin-top: 3rem;
-    margin-right: 3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.--middle-side-image {
-    margin-top: 5rem;
-    text-align: center;
-    margin-right: 4rem;
-}
-.--middle-side-amount {
-    margin-top: 3rem;
-    text-align: center;
-}
-
-.--middle-side-icons {
-    display: flex;
-    margin-top: 3rem;
-    gap: 45px;
-    margin-left: 28rem;
-    font-size: 5rem;
-}
-
-.--middle-side-notification {
-    display: flex;
-    margin-top: 3rem;
-    gap: 15rem;
-    justify-content: space-around;
-}
-
-// Section three
 
 
-#thirds {
-    background-color: bisque;
-    height: 100vh;
-    overflow: scroll;
-    overflow-x: hidden;
-    box-sizing: content-box;
-}
 
-.--right-side-header {
-    margin-top: 7rem;
-    position: absolute;
-}
+@media screen and (min-device-width: 1030px) {
+    .usersPage {
+        display: grid;
+        grid-template-columns: 250px 1fr 270px;
+        height: 100%;
+        overflow: hidden;
+        background-color: var(--bg-color);
+        color: var(--primary-text-color);
+    }
+    
+    #sectionOne {
+        display: block;
+        height: 100vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    .--left-side-header {
+        margin-top: 7rem;
+        position: absolute;
+        left: 20px;
+    }
+    
+    .--user-settings {
+        margin-top: 6rem;
+        position: absolute;
+        left: 6px;
+    }
+    
+    // sectionTWO //
+    
+    #sectionTwo {
+        // background-color:  aqua;
+        height: 100vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    .--middle-side-header {
+        margin-top: 3rem;
+        margin-right: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .--middle-side-image {
+        margin-top: 5rem;
+        text-align: center;
+        margin-right: 4rem;
+    }
 
-.--right-side-amount {
-    margin-left: 20px;
-    margin-top: 25px;
-}
+    .--middle-side-image img {
+        width: 70rem;
+    }
 
+    .--middle-side-amount {
+        margin-top: 3rem;
+        text-align: center;
+    }
+    
+    .--middle-side-icons {
+        display: flex;
+        margin-top: 3rem;
+        gap: 45px;
+        margin-left: 28rem;
+        font-size: 5rem;
+    }
+    
+    .--middle-side-notification {
+        display: flex;
+        margin-top: 3rem;
+        gap: 15rem;
+        justify-content: space-around;
+    }
+    
+    // Section three
+    
+    
+    #sectionThree {
+        display: block;
+        height: 100vh;
+        overflow: scroll;
+        overflow-x: hidden;
+        box-sizing: content-box;
+    }
+    
+    .--right-side-header {
+        margin-top: 7rem;
+        position: absolute;
+    }
+    
+    .--right-side-amount {
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    
+    ::-webkit-scrollbar {
+        display: none;
+        scroll-behavior: smooth;
+    }
 
-::-webkit-scrollbar {
-    display: none;
-    scroll-behavior: smooth;
+    .usersAuth {
+        display: flex;
+        gap: 15px;
+        margin-left: 2rem;
+    }
+
+    .usersP {
+        margin-left: 9.5rem;
+        margin-top: -2rem;
+    }
+
+    .--middleLast {
+        display: none;
+    }
 }

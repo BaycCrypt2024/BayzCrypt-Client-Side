@@ -317,7 +317,7 @@ const AllTransactions = () => {
             </div>
           </div>
 
-          <div className="third">
+          <div id='sectionThree'>
             <Right />
           </div>
         </div>

@@ -3,6 +3,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { FaGgCircle } from "react-icons/fa6";
 import gifOne from "../../assets/gifOne.png"
 import gifTwo from "../../assets/gifTwo.png"
+import { Link } from 'react-router-dom';
 import "./transaction.scss"
 
 const Transaction = () => {
@@ -10,7 +11,9 @@ const Transaction = () => {
     <div className='--transaction-page'>
         <div className='--transaction'>
           <h3 style={{color: "green"}}>Recent Transaction</h3>
-          <h4 style={{color: "red", marginTop: "10px"}}>See all <FaLongArrowAltRight /></h4>
+          <Link to="/alltransactions">
+            <h4 style={{color: "red", }}>See all <FaLongArrowAltRight /></h4>
+          </Link>
         </div>
         <div className='my-Transaction'>
             {/* TRANSACTION ONE */}

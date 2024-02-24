@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaViacoin } from 'react-icons/fa'
 import { FaUserCircle } from 'react-icons/fa'
+import { FaBars } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 import './Header.scss';
 import { Link, NavLink } from 'react-router-dom';
@@ -20,10 +21,15 @@ const Header = () => {
     <header className='header'>
       <nav>
         <div className='logo' onClick={goHome}>
-        <FaViacoin/> &nbsp;
+          <FaViacoin/> &nbsp;
           <span>BayzCrypt</span>
         </div>
-        <h1 style={{color: 'white'}}>Innovation</h1>
+        <div className='header-nav'>
+          <h1 style={{color: 'white'}}>Innovation</h1>
+        </div>
+        <div className='header-icon'>
+          <FaBars />
+        </div>
       </nav>
     </header>
   )

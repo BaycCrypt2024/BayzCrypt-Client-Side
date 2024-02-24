@@ -28,7 +28,7 @@ const UsersPage = ({ text }) => {
             <Middle />
           </div>
 
-          <div className="third">
+          <div id="sectionThree">
             <Right />
           </div>
         </div>

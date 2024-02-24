@@ -23,13 +23,14 @@ const Home = () => {
       ) : (
         <Layout>
           <section className="container hero">
+            <div className="containers">
             <div className="hero-text">
               <h2>BayzCrypt Decentralized Cryptocurrency Wallet</h2>
               <p>Safeguard your crypto with bayzCrypt today !!!</p>
               <p>
-                At bayzCrypt we have make the experience more enjoyable, we have developed the 
-                platform to include GIFs. This enhances the user's experience 
-                and makes using the platform more fun.
+                At BayzCrypt, we have made the user experience more enjoyable by developing 
+                the platform to include GIFs. This enhances the user's experience and makes 
+                using the platform more fun.
               </p>
 
               <div className="hero-buttons --flex-start">
@@ -40,7 +41,10 @@ const Home = () => {
             <div className="hero-image">
               <img src={crytoLogo} alt="loginImg" />
             </div>
+            </div>
+          <div>h1</div>
           </section>
+          
         </Layout>
       )}
     </>

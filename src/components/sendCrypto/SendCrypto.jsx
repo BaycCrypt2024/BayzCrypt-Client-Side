@@ -55,7 +55,7 @@ const SendCrypto = () => {
             </form>
           </div>
 
-          <div className="third">
+          <div id="sectionThree">
             <Right />
           </div>
         </div>

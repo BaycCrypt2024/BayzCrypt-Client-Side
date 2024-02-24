@@ -1,5 +1,6 @@
 import React from 'react'
-import Settings from '../sideBar/SideBar';
+// import Settings from '../sideBar/SideBar';
+import SideBar from '../sideBar/SideBar';
 import './userPage.scss';
 import { FaViacoin } from 'react-icons/fa'
 import { Link } from 'react-router-dom';
@@ -14,7 +15,7 @@ const Left = () => {
           </div>
         </Link>
         <div className='--user-settings'>
-            <Settings/>
+            <SideBar/>
         </div>
     </div>
   )
