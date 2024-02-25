@@ -6,7 +6,7 @@ import { AuthContext } from '../context/AuthContext'
 const UserAuth = () => {
   const {currentUser} = useContext(AuthContext)
   return (
-    <div id='userHeader'>
+    <>
       <div>
         <div className='usersAuth'>
           <img style={{width: '6rem', height: "5.7rem", borderRadius: '40px'}} src={currentUser.photoURL} alt="" />
@@ -17,7 +17,7 @@ const UserAuth = () => {
       <div>
         <ChangeNetwork />
       </div>
-    </div>
+    </>
   );
 };
 
