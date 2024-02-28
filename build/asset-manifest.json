@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50243c1b.css",
+    "main.js": "/static/js/main.01bc3f86.js",
+    "static/media/crytoPhone.png": "/static/media/crytoPhone.2b9f3b5c74071a9042d6.png",
+    "static/media/gifTwo.png": "/static/media/gifTwo.31a00cb78fc73116cdb5.png",
+    "static/media/gifOne.png": "/static/media/gifOne.fba76adff159ab3af8c7.png",
+    "static/media/cryptImg.svg": "/static/media/cryptImg.6da7aae57ee677f3a61b6c27574c5324.svg",
+    "static/media/gifFour.JPG": "/static/media/gifFour.5bd3753289e076b7d626.JPG",
+    "static/media/cryptoChat.png": "/static/media/cryptoChat.b67038a7af3f575e6821.png",
+    "static/media/gifThree.GIF": "/static/media/gifThree.791acb90bb7ade7dfacf.GIF",
+    "static/media/gifFive.PNG": "/static/media/gifFive.828d46b61c9d1064590f.PNG",
+    "index.html": "/index.html",
+    "main.50243c1b.css.map": "/static/css/main.50243c1b.css.map",
+    "main.01bc3f86.js.map": "/static/js/main.01bc3f86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.50243c1b.css",
+    "static/js/main.01bc3f86.js"
+  ]
+}

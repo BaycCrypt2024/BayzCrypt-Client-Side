@@ -43,7 +43,6 @@ html {
 
 body {
   font-family: var(--font-family);
-  background: white;
 }
 
 section {
@@ -524,4 +523,9 @@ a:hover {
   width: 100%;
   height: 2px;
   background-color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
 }
