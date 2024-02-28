@@ -13,6 +13,7 @@ const UserAuth = () => {
           <h4>Welcome back, <strong style={{textTransform: "uppercase"}}>{currentUser.displayName}</strong></h4> <br />
         </div>
         <p className='usersP'>Send crypto with ease.</p>
+        <hr />
       </div>
       <div>
         <ChangeNetwork />

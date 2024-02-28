@@ -22,7 +22,7 @@ const Middle = () => {
             <UserAuth/>
         </div>
         <div className='--middle-side-image'>
-          <img src={bayzImg} alt="" />
+          <img className='myImage' src={bayzImg} alt="" />
         </div>
         <div>
           <Clipboard/>
