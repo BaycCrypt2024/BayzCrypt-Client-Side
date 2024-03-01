@@ -10,7 +10,7 @@ const UserAuth = () => {
       <div>
         <div className='usersAuth'>
           <img style={{width: '6rem', height: "5.7rem", borderRadius: '40px'}} src={currentUser.photoURL} alt="" />
-          <h4>Welcome back, <strong style={{textTransform: "uppercase"}}>{currentUser.displayName}</strong></h4> <br />
+          <h4>Hi, <strong style={{textTransform: "uppercase"}}>{currentUser.displayName}</strong></h4> <br />
         </div>
         <p className='usersP'>Send crypto with ease.</p>
         <hr />

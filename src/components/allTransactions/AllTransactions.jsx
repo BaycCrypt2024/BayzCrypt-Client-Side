@@ -42,277 +42,329 @@ const AllTransactions = () => {
               <div>
                 <img className="--gif-image" src={gifOne} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
               <div>
                 <img className="--gif-image" src={gifTwo} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>My Jerry</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
               <div>
                 <img className="--gif-image" src={gifThree} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>Hope</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
-              {/* DELETE FROM HERE */}
-
               <div>
                 <img className="--gif-image" src={gifFour} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>Love</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
               <div>
                 <img className="--gif-image" src={gifFive} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>Happy</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
-
               <div>
-                <img className="--gif-image" src={gifOne} alt="" />
+                <img className="--gif-image" src={gifTwo} alt="" />
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>From</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                  <div className="info-1">
+                    <div>
+                      <p>From</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "indigo" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>To</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "green" }}>yghvwb..whegy</p>
-                  </div>
-                </div>
-                <div className="--flex-contents-details">
-                  <div>
-                    <p>Amount</p>
-                  </div>
-                  <div>
-                    <p>0.00 ETH</p>
+                  <div className="info-2">
+                    <div>
+                      <p>To</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "green" }}>yghvwb..whegy</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Gif Keyword</p>
-                  </div>
-                  <div>
-                    <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                  <div className="info-3">
+                    <div>
+                      <p>Amount</p>
+                    </div>
+                    <div>
+                      <p>0.00 ETH</p>
+                    </div>
                   </div>
                 </div>
                 <div className="--flex-contents-details">
-                  <div>
-                    <p>Date/Time</p>
+                  <div className="info-4">
+                    <div>
+                      <p>Gif Keyword</p>
+                    </div>
+                    <div>
+                      <p style={{ color: "red", fontWeight: "900" }}>Wow</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>1st Jan 2024</p>
-                    <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                </div>
+                <div className="--flex-contents-details">
+                  <div className="info-5">
+                    <div>
+                      <p>D/T</p>
+                    </div>
+                    <div>
+                      <p>1st Jan 2024</p>
+                      <p style={{ marginLeft: "3.6rem" }}>0:00AM</p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
           <div id="sectionThree">
             <Right />
           </div>
