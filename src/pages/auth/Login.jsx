@@ -10,7 +10,7 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
 
 const Login = () => {
-  const [err, setErr] = useState(false);
+  const [err, setErr] = useState(null);
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
@@ -22,7 +22,7 @@ const Login = () => {
       await signInWithEmailAndPassword(auth, email, password);
       navigate("/usersPage")
     } catch (err) {
-      setErr(true);
+      setErr('Invalid login parameters');
     }
   };
 
@@ -44,6 +44,7 @@ const Login = () => {
                 <input type="email" placeholder="Email" required name="email"/>
                 <PasswordInput placeholder="Password" name="password"/>
                 <button type="submit" className="--btn --btn-primary --btn-block">Login</button>
+                {err && <div>{err}</div>}
             </form>
             <Link to='/forgot'>Forgot password</Link>
             <span style={{display: 'flex', marginTop: '15px'}}>
