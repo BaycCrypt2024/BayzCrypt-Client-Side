@@ -5,7 +5,7 @@ const PageMenu = () => {
 
   return (
     <div>
-      <nav className="--btn-google --p --mb --mt --height ">
+      <nav className="--btn-google --p --mb --mt ">
         <div className="home-links">
           <div>
             <NavLink to="/usersPage">Profile</NavLink>

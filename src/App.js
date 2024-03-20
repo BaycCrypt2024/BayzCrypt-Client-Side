@@ -43,8 +43,8 @@ function App() {
           <Route path="/usersPage" element={<UsersPage/> }/>
           <Route path="/sendcrypto" element={<SendCrypto/> }/>
           <Route path="/alltransactions" element={<AllTransactions/> }/>
-          <Route path="/changePassword" element={<Layout> <ChangePassword/> </Layout>}/>
-          <Route path="/users" element={<Layout> <UserList/> </Layout>}/>
+          <Route path="/changePassword" element={ <ChangePassword/> }/>
+          <Route path="/users" element={ <UserList/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

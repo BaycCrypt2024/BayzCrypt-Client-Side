@@ -19,7 +19,6 @@
     color: white;
     background-color: green;
     position: relative;
-    /* margin-bottom: 8px; */
   }
   .sd-body ul li .sd-link {
     display: inline-block;
@@ -31,7 +30,7 @@
     cursor: pointer;
     text-decoration: none;
   }
-  
+
   .container-fluid img {
     width: 15%;
     object-fit: cover;
@@ -49,23 +48,22 @@
     overflow-x: hidden;
   }
 
-  ul{
+  ul {
     margin-top: -5rem;
   }
 
   .sd-body ul li {
-    font-weight: 400;
+    font-weight: 600;
   }
   .sd-body ul li a :hover {
     color: white;
     background-color: green;
     position: relative;
-    /* margin-bottom: 8px; */
   }
   .sd-body ul li .sd-link {
     display: inline-block;
     width: 100%;
-    
+
     padding: 20px 26px;
     color: black;
     background-color: #e5e8ec;
@@ -80,10 +78,8 @@
     display: flex;
     gap: 10px;
   }
-  
+
   .--last-h4 {
     margin-top: 4px;
   }
-
 }
-

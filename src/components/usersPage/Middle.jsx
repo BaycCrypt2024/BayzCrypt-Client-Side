@@ -6,13 +6,8 @@ import { MdSwapHorizontalCircle } from "react-icons/md";
 import { FaArrowCircleDown, FaArrowCircleUp } from "react-icons/fa";
 import { IoLogoPolymer } from "react-icons/io";
 import { FaEthereum } from "react-icons/fa";
-import { IoSettingsOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
-import Footer from '../footer/Footer'
-import {signOut} from "firebase/auth"
 import UserAuth from './UserAuth';
-import { CiLogout } from "react-icons/ci";
-import { auth } from '../../firebase'
 
 
 const Middle = () => {
@@ -41,14 +36,14 @@ const Middle = () => {
           </div>
           <div style={{marginLeft: '6px', marginTop: '-2px'}}>
             <Link to=''>
-              <h1 style={{marginLeft: '4px'}}><FaArrowCircleDown size={42} color='green' /></h1>
+              <h1 style={{marginLeft: '-6px'}}><FaArrowCircleDown size={42} color='green' /></h1>
               <p style={{marginTop: "-14px", marginLeft: "-12px",  fontSize: "10px", fontWeight: '700'}}>Recieve Crypto</p>
             </Link>
           </div>
           <div >
             <Link to="/sendcrypto">
-              <h1><FaArrowCircleUp size={40} color='red'/></h1>
-              <p style={{marginTop: "-13px", marginLeft: "-10px", fontSize: "10px", fontWeight: '700'}}>Send Crypto</p>
+              <h1><FaArrowCircleUp size={40} style={{marginLeft: '-5px'}} color='red'/></h1>
+              <p style={{marginTop: "-13px", marginLeft: "-1px", fontSize: "10px", fontWeight: '700'}}>Send Crypto</p>
             </Link>
           </div>
         </div>
@@ -82,7 +77,7 @@ const Middle = () => {
           <Transaction/>
         </div>
         <div >
-          <h3 style={{marginTop: '10rem', textAlign: 'center', color: 'green'}}>BAYZCRYPT</h3>
+          {/* <h3 style={{marginTop: '5rem', textAlign: 'center', color: 'green'}}>BAYZCRYPT</h3> */}
         </div>
     </div>
   )

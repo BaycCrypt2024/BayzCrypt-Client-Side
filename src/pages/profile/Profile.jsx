@@ -28,7 +28,7 @@ const Profile = () => {
   return (
     <>
       <section className="container">
-        <div style={{marginTop: "5rem"}}>
+        <div style={{marginTop: "5rem", position: 'relative'}}>
           <PageMenu/>
         </div>
 
