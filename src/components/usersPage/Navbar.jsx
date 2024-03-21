@@ -37,7 +37,7 @@ const Navbar = () => {
         </nav>
         <div className={`sidebar ${isOpen == true ? "active" : ""}`}>
           <div className="sd-header">
-            <h4 className="mb-0">BAYZCRYPT</h4>
+            <Link to='/usersPage'><h4 className="mb-0">BAYZCRYPT</h4></Link>
             <div className="btn btn-primary" onClick={ToggleSidebar}>
               <BiX />
             </div>
@@ -52,7 +52,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link>
+          <Link to='/profilePage'>
             <a className="sd-link">
               <IoSettingsOutline /> &nbsp; SETTINGS
             </a>
@@ -66,7 +66,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link>
+          <Link to='/alltransactions'>
             <a className="sd-link">
               <AiOutlineTransaction /> &nbsp; TRANSACTIONS
             </a>

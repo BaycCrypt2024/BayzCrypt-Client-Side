@@ -10,6 +10,11 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";
 
 const Login = () => {
+
+  const google = () => {
+    alert('Currently not available, make use of the other options below')
+  }
+
   const [err, setErr] = useState(null);
   const navigate = useNavigate();
 
@@ -35,7 +40,7 @@ const Login = () => {
           </div>
           <h2>Login</h2>
           <div className="--flex-center">
-            <button className="--btn --btn-google">Login with Google</button>
+            <button onClick={google} className="--btn --btn-google">Login with Google</button>
           </div>
           <br />
           <p className="--text-center --fw-bold">or</p>

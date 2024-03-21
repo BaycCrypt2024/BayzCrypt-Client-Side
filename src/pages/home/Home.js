@@ -1,5 +1,5 @@
 import React from "react";
-import crytoLogo from "../../assets/crytoPhone.png";
+import crytoLogo from "../../assets/newsp.webp";
 import "./Home.scss";
 import Loader from "../../components/loader/Loader";
 import { useState, useEffect } from "react";
