@@ -8,6 +8,7 @@ import { IoLogoPolymer } from "react-icons/io";
 import { FaEthereum } from "react-icons/fa";
 import { IoSettingsOutline } from "react-icons/io5";
 import { Link } from 'react-router-dom';
+import Footer from '../footer/Footer'
 import {signOut} from "firebase/auth"
 import UserAuth from './UserAuth';
 import { CiLogout } from "react-icons/ci";
@@ -80,15 +81,8 @@ const Middle = () => {
         <div>
           <Transaction/>
         </div>
-        <div className='--middleLast'>
-          <div className='--middleLast-first'>
-              <h2><CiLogout size={24} color='red' /></h2>
-              <Link to='/'><h4 onClick={()=>signOut(auth)} className='--last-h4'>Logout</h4></Link>
-          </div>
-          <div className='--middleLast-second'>
-              <h3><IoSettingsOutline size={24} /></h3>
-              <Link to='/profilePage'><h4 className='--text-weight'>Settings</h4></Link>
-          </div>  
+        <div >
+          <h3 style={{marginTop: '10rem', textAlign: 'center', color: 'green'}}>BAYZCRYPT</h3>
         </div>
     </div>
   )

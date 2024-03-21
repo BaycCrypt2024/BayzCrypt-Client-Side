@@ -44,7 +44,7 @@ const Login = () => {
                 <input type="email" placeholder="Email" required name="email"/>
                 <PasswordInput placeholder="Password" name="password"/>
                 <button type="submit" className="--btn --btn-primary --btn-block">Login</button>
-                {err && <div>{err}</div>}
+                {err && <div style={{marginTop: '5px', color: "red", marginBottom: '5px', fontSize: '15px'}}>{err}</div>}
             </form>
             <Link to='/forgot'>Forgot password</Link>
             <span style={{display: 'flex', marginTop: '15px'}}>

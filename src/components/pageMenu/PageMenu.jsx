@@ -5,18 +5,18 @@ const PageMenu = () => {
 
   return (
     <div>
-      <nav className="--btn-google --p --mb --mt ">
-        <ul className="home-links">
-          <li>
+      <nav className="--btn-google --p --mb --mt --height ">
+        <div className="home-links">
+          <div>
             <NavLink to="/usersPage">Profile</NavLink>
-          </li>
-          <li>
+          </div>
+          <div>
             <NavLink to="/changePassword">ChangePassword</NavLink>
-          </li>
-          <li>
+          </div>
+          <div>
             <NavLink to="/users">Users-Info</NavLink>
-          </li>
-        </ul>
+          </div>
+        </div>
       </nav>
     </div>
   );

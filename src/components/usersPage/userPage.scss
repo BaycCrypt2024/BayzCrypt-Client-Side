@@ -15,7 +15,7 @@
     }
     
     .--left-side-header {
-        margin-top: 7rem;
+        margin-top: 6rem;
         position: absolute;
         left: 20px;
     }
@@ -89,6 +89,7 @@
     .usersP {
         margin-left: 9rem;
         margin-top: -2rem;
+        margin-bottom: 2.5rem;
     }
     
     ::-webkit-scrollbar {
@@ -115,6 +116,27 @@
         margin-left: 2rem;
         margin-bottom: 3rem;
     }
+
+    .--nav-section {
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        margin: 5px;
+        border-radius: 10px;
+        
+//         box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+// -webkit-box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+// -moz-box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+
+// box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+// -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+// -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+
+box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+        
+    }
 }
 
 
@@ -123,7 +145,7 @@
 @media screen and (min-device-width: 1030px) {
     .usersPage {
         display: grid;
-        grid-template-columns: 250px 1fr 270px;
+        grid-template-columns: 220px 1fr 270px;
         height: 100%;
         overflow: hidden;
         background-color: var(--bg-color);
@@ -145,7 +167,7 @@
     }
     
     .--user-settings {
-        margin-top: 6rem;
+        // margin-top: 4rem;
         position: absolute;
         left: 6px;
     }
@@ -240,4 +262,38 @@
     .--middleLast {
         display: none;
     }
+
+    .--nav-section {
+        // display: flex;
+        justify-content: space-around;
+        background-color: white;
+        // margin: 20px;
+        border-radius: 10px;
+        
+//         box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+// -webkit-box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+// -moz-box-shadow: -2px 0px 9px 2px rgba(0,0,0,0.75);
+
+// box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+// -webkit-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+// -moz-box-shadow: 0px 0px 9px 2px rgba(0,0,0,0.75);
+
+// box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+// -webkit-box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+// -moz-box-shadow: 0px 1px 9px 2px rgba(0,0,0,0.75);
+box-shadow: none;
+        
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+

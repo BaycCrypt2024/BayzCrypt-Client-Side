@@ -156,11 +156,8 @@ const Register = () => {
               name="password"
               onChange={handleInputChange}
             />
-            <input required style={{ display: "none" }} type="file" id="file" />
-            <label htmlFor="file">
-              <img src={Add} alt="" />
-              <span>Add a profile picture</span>
-            </label>
+            <label htmlFor="profile" style={{fontSize: '15px', color: 'green'}}>Add Profile Picture</label> <br />
+            <input required style={{marginTop: '10px', marginBottom: '10px' }} type="file" id="file" placeholder="" /> 
 
             {/* Password Strength indicator */}
 

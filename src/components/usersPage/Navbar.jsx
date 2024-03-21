@@ -1,4 +1,8 @@
-import React from "react";
+import React from 'react'
+import { CiMenuFries } from "react-icons/ci";
+import { BiX } from "react-icons/bi";
+import { useState } from 'react';
+import './middle.css'
 import { MdGridView } from "react-icons/md";
 import { IoSettingsOutline } from "react-icons/io5";
 import { SiJsonwebtokens } from "react-icons/si";
@@ -7,14 +11,39 @@ import { IoIosNotificationsOutline } from "react-icons/io";
 import { BsTelephoneOutbound } from "react-icons/bs";
 import { CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
-import "./sideBar.css";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 
-const SideBar = () => {
+
+
+const Navbar = () => {
+
+    const [isOpen, setIsopen] = useState(false);
+
+  const ToggleSidebar = () => {
+    isOpen === true ? setIsopen(false) : setIsopen(true);
+  };
   return (
-    <div className="sd-body">
-      <ul>
+    <div className="container-fluid mt-3">
+        <nav className="navbar navbar-expand-lg navbar-light bg-white shadow-md">
+          <div className="container-fluid p-2">
+        
+            <div className="form-inline ml-auto">
+              <div className="btn btn-primary" onClick={ToggleSidebar}>
+                <CiMenuFries />
+              </div>
+            </div>
+          </div>
+        </nav>
+        <div className={`sidebar ${isOpen == true ? "active" : ""}`}>
+          <div className="sd-header">
+            <h4 className="mb-0">BAYZCRYPT</h4>
+            <div className="btn btn-primary" onClick={ToggleSidebar}>
+              <BiX />
+            </div>
+          </div>
+          <div className="sd-body">
+          <ul>
         <li>
           <Link>
             <a className="sd-link">
@@ -23,7 +52,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link to='/profilePage'>
+          <Link>
             <a className="sd-link">
               <IoSettingsOutline /> &nbsp; SETTINGS
             </a>
@@ -37,7 +66,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link to='/alltransactions'>
+          <Link>
             <a className="sd-link">
               <AiOutlineTransaction /> &nbsp; TRANSACTIONS
             </a>
@@ -68,8 +97,16 @@ const SideBar = () => {
           </h4>
         </Link>
       </div>
-    </div>
-  );
-};
+          </div>
+        </div>
+        <div
+          className={`sidebar-overlay ${isOpen == true ? "active" : ""}`}
+          onClick={ToggleSidebar}
+        ></div>
 
-export default SideBar;
+
+      </div>
+  )
+}
+
+export default Navbar
