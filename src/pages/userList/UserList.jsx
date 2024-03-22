@@ -10,7 +10,7 @@ const UserList = () => {
   return (
     <section>
       <div className="container">
-        <PageMenu />
+        {/* <PageMenu /> */}
         <UserStats />
 
         <div className="user-list">
@@ -39,7 +39,7 @@ const UserList = () => {
                 <tr>
                   <td>1</td>
                   <td>Bayz</td>
-                  <td>bayzCrypt@gmail.com</td>
+                  <td>bayzCrypt2024@gmail.com</td>
                   <td>Admin ✅</td>
                   <td>
                     <ChangeRole />

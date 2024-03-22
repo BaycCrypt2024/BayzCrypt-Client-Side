@@ -13,9 +13,9 @@ const PageMenu = () => {
           <div>
             <NavLink to="/changePassword">ChangePassword</NavLink>
           </div>
-          <div>
+          {/* <div>
             <NavLink to="/users">Users-Info</NavLink>
-          </div>
+          </div> */}
         </div>
       </nav>
     </div>

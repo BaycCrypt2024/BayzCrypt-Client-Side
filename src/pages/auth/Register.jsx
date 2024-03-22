@@ -162,7 +162,7 @@ const Register = () => {
             {/* Password Strength indicator */}
 
             <Card cardClass={styles.group}>
-              <ul className="form-list">
+              <ol className="form-list">
                 <li>
                   <span className={styles.indicator}>
                     {switchIcon(upperCase)}
@@ -187,7 +187,7 @@ const Register = () => {
                     &nbsp; At least 6 character
                   </span>
                 </li>
-              </ul>
+              </ol>
             </Card>
 
             <button type="submit" className="--btn --btn-primary --btn-block">
