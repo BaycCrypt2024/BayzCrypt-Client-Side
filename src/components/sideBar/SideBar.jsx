@@ -11,6 +11,7 @@ import "./sideBar.css";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
 
+
 const SideBar = () => {
   return (
     <div className="sd-body">
@@ -23,7 +24,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link to='/profilePage'>
+          <Link to="/profilePage">
             <a className="sd-link">
               <IoSettingsOutline /> &nbsp; SETTINGS
             </a>
@@ -37,7 +38,7 @@ const SideBar = () => {
           </Link>
         </li>
         <li>
-          <Link to='/alltransactions'>
+          <Link to="/alltransactions">
             <a className="sd-link">
               <AiOutlineTransaction /> &nbsp; TRANSACTIONS
             </a>

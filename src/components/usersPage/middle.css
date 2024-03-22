@@ -116,6 +116,36 @@
     display: none;
   }
   
+  .sd-bod {
+    margin-top: 2rem;
+    padding: 15px;
+    max-height: calc(100vh - 67px);
+  }
+  .sd-body ul {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .sd-bod ul li {
+    list-style: none;
+    margin-bottom: 8px;
+  }
+  .sd-bod ul li a:hover {
+    color: white;
+    background-color: green;
+    position: relative;
+  }
+  .sd-bod ul li .sd-link {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 16px;
+    color: black;
+    background-color: #e5e8ec;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+  }
   
   
 }

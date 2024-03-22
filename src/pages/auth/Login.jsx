@@ -4,7 +4,6 @@ import Card from "../../components/card/Card";
 import { BiLogIn } from "react-icons/bi";
 import { useState } from "react";
 import PasswordInput from "../../components/passwordInput/PasswordInput";
-
 import { useNavigate, Link } from "react-router-dom";
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { auth } from "../../firebase";

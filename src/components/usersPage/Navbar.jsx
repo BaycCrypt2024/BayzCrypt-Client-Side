@@ -13,12 +13,16 @@ import { CiLogout } from "react-icons/ci";
 import { Link } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase";
+import { RiAdminFill } from "react-icons/ri";
+import { AuthContext } from '../context/AuthContext'
+import { useContext } from 'react';
 
 
 
 const Navbar = () => {
 
-    const [isOpen, setIsopen] = useState(false);
+  const {currentUser} = useContext(AuthContext)
+  const [isOpen, setIsopen] = useState(false);
 
   const ToggleSidebar = () => {
     isOpen === true ? setIsopen(false) : setIsopen(true);
@@ -86,6 +90,20 @@ const Navbar = () => {
             </a>
           </Link>
         </li>
+        {currentUser?.email === "bayzcrypt2024@gmail.com" ? (
+          <li className="flow-root">
+            <Link
+              to={"/users"}
+              className=""
+            >
+              <a className="sd-link">
+              <RiAdminFill /> &nbsp; ADMIN
+            </a>
+            </Link>
+          </li>
+        ) : (
+          ""
+        )}
       </ul>
       <div className="--all-settings-last">
         <h2>
